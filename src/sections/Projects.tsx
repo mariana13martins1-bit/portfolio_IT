@@ -14,7 +14,7 @@ const Projects = () => {
     title: 'Kirchhoff Studios',
     description:
       'A professional photography portfolio website built with React and Node.js. Features an elegant dark theme, responsive grid layout, and smooth animations for showcasing sports, portrait, and architectural photography.',
-    image: '/project-kirchhoff.jpg',
+    image: `${import.meta.env.BASE_URL}project-kirchhoff.png`,
     technologies: ['React', 'Node.js', 'Express', 'CSS3', 'Responsive Design'],
     liveUrl: 'https://kirchhoffstudios.com',
     githubUrl: null,
@@ -26,7 +26,7 @@ const Projects = () => {
       title: 'Kubernetes Operator',
       description:
         'Automated database credential rotation operator using Spec-Driven Development and AI-assisted engineering with Claude-Code. Implements Blue/Green deployment for zero downtime.',
-      image: '/project-sonae.jpg',
+      image: `${import.meta.env.BASE_URL}project-sonae.jpg`,
       technologies: ['Kubernetes', 'Vault', 'Go', 'Python', 'Claude-Code'],
       liveUrl: null,
       githubUrl: null,
@@ -35,7 +35,7 @@ const Projects = () => {
       title: 'Smart Buoy System',
       description:
         'IoT environmental monitoring system with smart buoys collecting ocean metrics. Full data pipeline from sensors to cloud visualization dashboard.',
-      image: '/project-buoy.jpg',
+      image: `${import.meta.env.BASE_URL}project-buoy.jpg`,
       technologies: ['React', 'MQTT', 'APIs', 'Cloud', 'IoT'],
       liveUrl: null,
       githubUrl: null,
@@ -44,7 +44,7 @@ const Projects = () => {
       title: 'Skin Cancer Detection',
       description:
         'CNN-based melanoma classification system with data preprocessing, augmentation, and performance evaluation for medical image analysis.',
-      image: '/project-ml.jpg',
+      image: `${import.meta.env.BASE_URL}project-ml.jpg`,
       technologies: ['Python', 'TensorFlow', 'CNNs', 'Data Science'],
       liveUrl: null,
       githubUrl: null,

@@ -1,6 +1,9 @@
 /* App-specific styles */
 
-
+/* Smooth section transitions */
+section {
+  position: relative;
+}
 
 /* Hero background parallax effect */
 .hero-bg {

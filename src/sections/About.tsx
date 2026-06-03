@@ -121,7 +121,7 @@ const About = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/profile.jpg"
+                src={`${import.meta.env.BASE_URL}profile.jpg`}
                 alt="Mariana Martins"
                 className="w-full h-auto object-cover"
               />

@@ -19,7 +19,7 @@ const Experience = () => {
       description:
         'Developing a Kubernetes operator for database credential rotation using Spec-Driven Development and AI-assisted engineering with Claude-Code. Implemented Blue/Green deployment strategy for zero downtime.',
       technologies: ['Kubernetes', 'Vault', 'Go', 'Python', 'Claude-Code'],
-      image: '/project-sonae.jpg',
+      image: `${import.meta.env.BASE_URL}project-sonae.jpg`,
       link: null,
     },
     {
@@ -43,7 +43,7 @@ const Experience = () => {
       description:
         'Developed IoT smart buoys to collect environmental metrics, implementing a full data pipeline from API ingestion to MQTT message handling, cloud storage, and visualization through a React-based dashboard.',
       technologies: ['React', 'MQTT', 'APIs', 'Cloud', 'IoT'],
-      image: '/project-buoy.jpg',
+      image: `${import.meta.env.BASE_URL}project-buoy.jpg`,
       link: null,
     },
     {
@@ -55,7 +55,7 @@ const Experience = () => {
       description:
         'Developed convolutional neural networks for melanoma image classification, including data preprocessing, augmentation, and performance evaluation using Python and TensorFlow.',
       technologies: ['Python', 'CNNs', 'TensorFlow', 'Data Science'],
-      image: '/project-ml.jpg',
+      image: `${import.meta.env.BASE_URL}project-ml.jpg`,
       link: null,
     },
     {
