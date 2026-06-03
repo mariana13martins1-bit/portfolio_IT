@@ -63,7 +63,7 @@ const Experience = () => {
       title: 'Bachelor in Computer Engineering',
       company: 'ISEP',
       location: 'Porto, Portugal',
-      period: '2021 - 2025',
+      period: '2023 - 2026',
       description:
         'Comprehensive computer engineering program covering software development, systems architecture, databases, and emerging technologies. Multiple academic projects including green space management and drone show simulation.',
       technologies: ['Java', 'C', 'C++', 'SQL', 'Python'],

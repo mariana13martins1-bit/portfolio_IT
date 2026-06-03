@@ -99,7 +99,7 @@ const About = () => {
   }, []);
 
   const stats = [
-    { icon: Code, value: 5, suffix: '+', label: 'Years Coding' },
+    { icon: Code, value: 3, suffix: '+', label: 'Years Coding' },
     { icon: Cloud, value: 3, suffix: '+', label: 'Cloud Platforms' },
     { icon: Award, value: 10, suffix: '+', label: 'Projects' },
     { icon: Trophy, value: 2, suffix: 'x', label: 'National Champion' },
